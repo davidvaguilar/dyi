@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Curriculum Vitae">
+  <meta name="author" content="David Villegas Aguilar">
+  <link rel="icon" type="image/svg" href="/img/less.svg"/>
   <title>Curriculum Vitae - David Villegas Aguilar</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,12 +22,21 @@
           bottom:90px;
           right:0px;
     }
+    .bg-primary {
+      background-color: #007bff !important;
+    }
+    .text-primary {
+      color: #007bff !important;
+    }
+    a {
+      color: #007bff;
+    }
   </style>
 </head>
 
 <body id="page-top">
   <div class="flotante" >
-    <button id="btncorreo" type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#mdl_correo_enviar"> <i class="fas fa-envelope"></i> Mensaje</button>
+    <!--<button id="btncorreo" type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#mdl_correo_enviar"> <i class="fas fa-envelope"></i> Mensaje</button>-->
     <a href="#" id="lnkwhatsapp" class="btn btn-success btn-block"><i class='fab fa-whatsapp'></i>Whatsapp</a>
   </div>
 
@@ -52,10 +62,7 @@
           <a class="nav-link js-scroll-trigger" href="#educacion">Educación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#intranet">Intranet</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#mapa">Mapa</a>
+          <a class="nav-link js-scroll-trigger" href="#intranet">Habilidades</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="curriculum.php" target="_black">Imprimir Curriculum</a>
@@ -86,30 +93,25 @@
             <i class="fab fa-twitter"></i>
           </a>
           <a href="https://www.linkedin.com/in/david-villegas-aguilar-695b3721" target="_black">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/david-villegas-aguilar-695b3721" target="_black">
             <i class="fab fa-linkedin-in"></i>
           </a>
           <a href="https://github.com/davidvaguilar" target="_black">
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-github"></i>
           </a>
           <a href="mailto:david.villegas.aguilar@gmail.com" target="_black">
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fas fa-envelope"></i>
           </a>
         </div>
       </div>
     </section>
 
     <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experiencia">
       <div class="w-100">
         <h2 class="mb-5">Experiencia</h2>
-
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Desarrollador de Sistemas Informatico</h3>
+            <h3 class="mb-0">Desarrollador de Sistema</h3>
             <div class="subheading mb-3">Hospital Iquique - Dr. Ernesto Torres Galdames</div>
             <p>
               <ul>
@@ -126,8 +128,8 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Docente area de Informatica</h3>
-            <div class="subheading mb-3">Instituto Profesional Santo Tomas</div>
+            <h3 class="mb-0">Docente educacion superior</h3>
+            <div class="subheading mb-3">Instituto Profesional Santo Tomas</div>        
             <p>
               <ul>
                 <li>Cátedras y laboratorios en ramos de programación orientado a objetos y diseño de base de datos.</li>
@@ -293,7 +295,6 @@
             <i class="fab fa-npm"></i>
           </li>
         </ul>
-
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
@@ -301,8 +302,7 @@
             Responsive Design</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Unit Test &amp; Debugging</li>
-      
+            Unit Test &amp; Debugging</li>      
           <li>
             <i class="fa-li fa fa-check"></i>
             Desarrollo Agil &amp; Scrum</li>

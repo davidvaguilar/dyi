@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/correos/create', 'CorreoElectronicoController@create');
+Route::post('/correos', 'CorreoElectronicoController@store');
+//Route::resource('/correos', 'CorreoElectronicoController');

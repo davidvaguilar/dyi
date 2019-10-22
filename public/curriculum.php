@@ -306,5 +306,5 @@ $pdf->SetFont('helvetica', 'I', 10);
 $meses = array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
 $pdf->Cell(0, 0, "Actualizado, ".$meses[date("n")-1]." del ".date("Y"), 0, 1, 'C', 0, '', 0);
 
-$pdf->Output('cvdavidvillegas.pdf', 'I');
+$pdf->Output('davidvillegascv.pdf', 'I');
 ?>
