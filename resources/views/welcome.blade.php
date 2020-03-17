@@ -81,7 +81,7 @@
         <h1 class="mb-0">David 
           <span class="text-primary">Villegas Aguilar</span>
         </h1>
-        <div class="subheading mb-5">Av. Heroes de la Concepcion · Iquique - Chile · (+56) 976400180 ·
+        <div class="subheading mb-5"> · Iquique - Chile · ·
           <a href="mailto:david.villegas.aguilar@gmail.com"> david.villegas.aguilar@gmail.com</a>
         </div>
         <p class="mb-5">
