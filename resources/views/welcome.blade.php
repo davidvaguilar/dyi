@@ -37,7 +37,7 @@
 <body id="page-top">
   <div class="flotante" >
     <!--<button id="btncorreo" type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#mdl_correo_enviar"> <i class="fas fa-envelope"></i> Mensaje</button>-->
-    <a href="#" id="lnkwhatsapp" class="btn btn-success btn-block"><i class='fab fa-whatsapp'></i>Whatsapp</a>
+    <!--<a href="#" id="lnkwhatsapp" class="btn btn-success btn-block"><i class='fab fa-whatsapp'></i>Whatsapp</a>-->
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -438,7 +438,7 @@
   <script>
     $("#lnkwhatsapp").click(function(){
       $("#lnkwhatsapp").attr({
-        "href": "https://api.whatsapp.com/send?phone=56976400180",
+        "href": "https://api.whatsapp.com/send?phone=569",
         "target" : "_blank"
       });
     });
